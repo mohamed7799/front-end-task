@@ -1,0 +1,99 @@
+@import "./assets/mixins";
+@import "./assets/resst";
+
+//navbar
+nav {
+  padding: 2rem 5rem;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  ul {
+    display: flex;
+    li {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}
+
+.title {
+  margin-right: auto;
+  padding: 0;
+  color: gray;
+  font-size: 30px;
+  span {
+    color: $main-color;
+  }
+}
+
+.btn--normal {
+  background-color: gray;
+  @include btn;
+}
+
+//header
+
+header {
+  display: flex;
+  & > * {
+    flex: 1;
+  }
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 5rem;
+  & > * {
+    margin-bottom: 2rem;
+  }
+
+  button {
+    width: fit-content;
+  }
+  & p:first-child {
+    color: gray;
+    span {
+      color: $main-color;
+    }
+  }
+  h1 {
+    color: $main-color;
+    font-weight: 100;
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #b0b0b0;
+  }
+}
+
+.btn--green {
+  @include btn;
+  background-color: $main-color;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.header__img {
+  position: relative;
+  border-radius: 0px 0px 0px 100%;
+  img {
+    width: 100%;
+    border-radius: 0px 0px 0px 100%;
+  }
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

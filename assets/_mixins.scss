@@ -1,0 +1,10 @@
+@mixin mobile {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin btn {
+  color: white;
+  border-radius: 5px;
+}

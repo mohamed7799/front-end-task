@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  padding: 2rem 5rem;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.title {
+  margin-right: auto;
+  padding: 0;
+  color: gray;
+  font-size: 30px;
+}
+
+.title span {
+  color: #7cc576;
+}
+
+.btn--normal {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.header__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 5rem;
+}
+
+.header__text > * {
+  margin-bottom: 2rem;
+}
+
+.header__text button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.header__text p:first-child {
+  color: gray;
+}
+
+.header__text p:first-child span {
+  color: #7cc576;
+}
+
+.header__text h1 {
+  color: #7cc576;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+.header__text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #b0b0b0;
+}
+
+.btn--green {
+  color: white;
+  border-radius: 5px;
+  background-color: #7cc576;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.header__img {
+  position: relative;
+  border-radius: 0px 0px 0px 100%;
+}
+
+.header__img img {
+  width: 100%;
+  border-radius: 0px 0px 0px 100%;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
