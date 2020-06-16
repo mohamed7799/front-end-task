@@ -17,8 +17,17 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 li {
   list-style: none;
+}
+
+hr {
+  margin: 2rem auto;
+  width: 10%;
+  height: 3px;
+  border: none;
+  background-image: linear-gradient(to right, white, #7cc576);
 }
